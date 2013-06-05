@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shaoqing's Portfolio Site with Twitter Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shaoqing's Portfolio Website">
+    <meta name="author" content="Shaoqing Yu">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+
+  <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+          <div class="container">
+              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="brand pull-left" href="#">Shaoqing's Portfolio 2013</a>
+              <div class="nav-collapse collapse pull-right">
+                  <ul class="nav">
+                      <li><a href="#home"><i class="icon-home"></i>Home</a></li>
+                      <li class="active"><a href="#about"><i class="icon-user"></i>About</a></li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown"><i class="icon-tasks"></i>Works
+                              <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="#works ">Portfolio</a></li>
+                              <li><a href="#others">Others</a></li>
+                          </ul>
+                      </li>
+                      <li></li>
+                  </ul>
+
+
+
+                  <div id="contact">
+                      <a href="#myModal" data-toggle="modal"><i class="icon-envelope"></i></a>
+                  </div>
+
+                  <!--
+                  <form class="navbar-search pull-right">
+                      <input type="text" class="span3 search-query ">
+                  </form>
+                  -->
+                  <div class="navbar-static pull-right">
+                      <span id="tb" data-toggle="tooltip" title="Twitter Bootstrap"></span>
+                  </div>
+
+
+
+              </div><!--/.nav-collapse -->
+          </div>
+      </div>
+  </div>
+
+
+  <section id="home">
+
+<!--
+      <div class="row">
+          <div class="span5 well">
+              <div id="myCarousel" class="carousel">
+                  <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                      <div class="item active"><img src="img/bg1.jpg"></div>
+                      <div class="item"><img src="img/bg2.jpg"></div>
+                      <div class="item"><img src="img/bg3.jpg"></div>
+                      <div class="item"><img src="img/bg4.jpg"></div>
+                  </div>
+                  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+              </div>
+          </div>
+      </div>
+
+-->
+         <h1 class="text-center">WELCOM TO MY PORTFOLIO WEBSITE</h1>
+        <br class="divider">
+         <div class="text-center">
+                <a href="#about" class="btn btn-info">Know More About Me<i class="icon-circle-arrow-down"></i></a>
+         </div>
+  </section>
+
+  <section id="about">
+      <div class="container">
+              <div class="pull-left span5">
+
+                  <h3>ABOUT ME</h3>
+
+                  <p>I started my career as a web developer and I have been consistently improving my programming and design skills by working on a diverse range of projects. I believe I am a dedicated, hard working front end developer with HTML/CSS/JavaScript/Action Script/XML and so on…
+                      Currently, I am looking for a new Career Opportunities.</p>
+
+              </div>
+
+
+          <div class="span1 pull-left">
+              <span class="bg-circle text-center"><b>Skills</b></span>
+              <div class="divider-vertical"></div>
+              <span class="bg-circle"></span>
+              <span class="bg-circle"><b>Certification</b></span>
+          </div>
+
+
+
+
+              <div class="pull-right span5">
+                  <h2><strong>EDUCATION</strong></h2>
+                  <p><strong>200</strong><strong>5</strong><strong> -200</strong><strong>7</strong><br />
+                      <strong>University  of Wollongong</strong><strong> </strong></p>
+                  <p><strong>Institution:  University of Wollongong</strong><br />
+                      <strong>Qualifications:  Bachelor of Internet Science and Technology</strong></p>
+                  <p><strong>&nbsp;</strong></p>
+                  <h2><strong>SKILLS  SUMMARY</strong></h2>
+                  <p><strong>SOFTWARE</strong></p>
+                  <p> Adobe CS3/CS4/CS5 <br />
+                  <p><strong>LANGUAGES </strong></p>
+                  <p>Hand  coded XHTML &amp; CSS <br />
+                      javascript/jQuery<br />
+                      C#/PHP<br/>
+                      PL/SQL
+                  <p><strong>CMS </strong></p>
+                  <p>Joomla/Zencart/Magento/OScommerce </p>
+                  <h2> <strong>Other Knowledge</strong> </h2>
+                  <br />
+                  <p>Search  Engine Optimization</p>
+
+                  <h2>Certification:</h2>
+                  <p>MCTS: SQL Server 2008, Database Development</p>
+              </div>
+      </div>
+
+  </section>
+
+  <section id="works">
+      <div class="container">
+          <h3>Recently Works</h3>
+
+          <ul class="thumbnails">
+              <li class="span3" >
+                 <div class="thumbnail well">
+                     <img class="img-rounded" src="img/bio-thumb.jpg" alt="bio-thumb"/>
+                  <h3>Thumbnail</h3>
+                  <p class="desciption">This is thumbnail</p>
+                 </div>
+              </li>
+
+              <li class="span3">
+                  <div class="thumbnail well">
+                      <img  class="img-rounded" src="img/liping-thumb.jpg" />
+                      <h3>Thumbnail</h3>
+                      <p class="desciption">This is thumbnail</p>
+                  </div>
+              </li>
+
+              <li class="span3">
+                  <div class="thumbnail well">
+                      <img  class="img-rounded" src="img/union-thumb.jpg" />
+                      <h3>Thumbnail</h3>
+                      <p class="desciption">This is thumbnail</p>
+                  </div>
+              </li>
+
+              <li class="span3">
+                  <div class="thumbnail well">
+                      <a href="http://www.totalarc.com.au">
+                      <img class="img-rounded" src="img/totalArc-thumb.jpg" />
+                      <h3>Thumbnail</h3>
+                      </a>
+                      <p class="desciption">This is thumbnail</p>
+                  </div>
+              </li>
+
+              <li class="span3">
+                  <div class="thumbnail well">
+                      <a href="http://www.totalarc.com.au">
+                          <img class="img-rounded" src="img/zedu-thumb.jpg" />
+                          <h3>Thumbnail</h3>
+                      </a>
+                      <p class="desciption">This is thumbnail</p>
+                  </div>
+              </li>
+
+              <li class="span3">
+                  <div class="thumbnail well">
+                      <a href="http://www.totalarc.com.au">
+                          <img class="img-rounded" src="img/fitnessandsport-thumb.jpg" />
+                          <h3>Thumbnail</h3>
+                      </a>
+                      <p class="desciption">This is thumbnail</p>
+                  </div>
+              </li>
+
+          </ul>
+
+      </div>
+  </section>
+
+  <section id="others"></section>
+
+
+  <footer>
+      <div class="container ">
+
+          <div class="footerCols">
+
+                  <ul class="socialBox"><i class="icon-asterisk"></i></ul>
+
+                  <div class="contactInfo">
+                      <p>
+                          0432459086<br/>
+                          Shaoqing.yu@gmail.com
+                      </p>
+                  </div>
+          </div>
+     </div>
+
+  </footer>
+
+
+  <div class="backTop" data-toggle="tooltip" title="Back To Top"><i class="icon-arrow-down"></i></div>
+
+
+  <div id="myModal" class="modal hide" tabindex="-1" role="dialog" arial-hidden="true">  <!-- contact modal -->
+      <div class="modal-header">
+          <b>Contact</b>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
+      </div>
+      <div class="modal-form modal-body well">
+          <form action="message.php" method="post" class="span4">
+              <label class="">Name</label><input type="text" name="name" class="span4" placeholder="Your Name"/>
+              <label class="">Email</label><input type="text" name="email" class="span4" placeholder="Your Email Address"/>
+              <label class="">Subject</label><input type="text" name="subject" class="span4" placeholder="Your Subject here"/>
+              <label class="">Message</label><textarea name="message" class="span4" placeholder="Your Message here"></textarea>
+              <br />
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="reset" class="btn">Clear</button>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button class="btn btn-success" data-dismiss="modal" arial-hidden="true">Close</button>
+      </div>
+  </div>
+
+
+
+
+
+
+
+ <!--js Container-->
+
+
+  <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-dropdown.js"></script>
+  <script src="js/bootstrap-popover.js"></script>
+  <script src="js/bootstrap-tooltip.js"></script>
+  <script src="js/bootstrap-carousel.js"></script>
+  <script src="js/bootstrap-modal.js"></script>
+  <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+  <script src="js/init.js"></script>
+
+
+
+
+  </body>
+</html>

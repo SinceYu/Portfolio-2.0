@@ -1,0 +1,78 @@
+@padding-nav:40px;
+
+.circle(@size:0,@border:0){
+  width:@size + 0px;
+  height: @size + 0px;
+  border: @border + 0px solid #515151;
+
+  -webkit-border-radius: @size / 2 + @border + 0px;
+  -moz-border-radius: @size / 2 + @border + 0px;
+  border-radius: @size / 2 + @border + 0px;
+}
+
+#home{
+      min-height:350px;
+      padding-top: 250px;
+      z-index: 100;
+}
+
+#about,#works,#others{
+}
+
+footer{
+  background: url("../img/bg_footer.png") repeat top fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 350px;
+
+
+  .footerCols{
+    position: fixed;
+    bottom: 74px;
+    z-index: 0;
+ }
+}
+
+#others{
+  min-height: 400px;
+}
+
+
+#contact{
+  position: fixed;
+  padding: 5px;
+  background: #fff;
+  right:0px;
+  top:100px;
+}
+
+.bg-circle{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: block;
+  background:#b3b3b3;
+  border: 1px solid #e3e3e3;
+  margin-top: 40px;
+  color:#515151;
+  box-shadow: 0 0 3px #e3e3e3;
+  b{
+    text-align: center;
+  }
+  &:hover{
+    background: #e3e3e3;
+  }
+}
+
+.backTop {
+  position: fixed;
+  left: 95%;
+  bottom: 5%;
+  .circle(19,2);
+
+  i{
+    margin:0 2px;
+  }
+}
+
+
